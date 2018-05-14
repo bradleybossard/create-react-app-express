@@ -1,5 +1,11 @@
 {
-  "extends": "google",
+  "extends": "prettier",
+  "plugins": [
+      "prettier"
+  ],
+  "rules": {
+      "prettier/prettier": "error"
+  },
   "parserOptions": {
     "ecmaVersion": 6
   }
